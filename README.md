@@ -2,7 +2,7 @@
 
 ![Alt Text](https://github.com/jet-black/how-opengl-works/blob/master/demo/demo.gif?raw=true)
 
-### Simple implementation of 3D graphics renderer java
+### Simple implementation of 3D graphics renderer written in java
 
 #### Supported features
 * Camera transform
