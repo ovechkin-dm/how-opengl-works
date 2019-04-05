@@ -1,8 +1,8 @@
-## How opengl works 
+## How opengl works (java)
 
 ![Alt Text](https://github.com/jet-black/how-opengl-works/blob/master/demo/demo.gif?raw=true)
 
-### Simple implementation of 3D graphics renderer
+### Simple implementation of 3D graphics renderer java
 
 #### Supported features
 * Camera transform
