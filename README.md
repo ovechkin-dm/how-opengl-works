@@ -9,7 +9,7 @@
 * Object transform
 * Back-face culling
 * Object clipping
-* Object primitives (sphere, square)
+* Object primitives (sphere, cube)
 * Ritter's bounding sphere
 * Gouraud shading
 
