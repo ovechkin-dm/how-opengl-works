@@ -6,7 +6,7 @@ import model.Vector;
 
 import java.util.List;
 
-public class GourandShading {
+public class GouraudShading {
 
     public static void applyShading(List<Light> lights,
                                     Vector[] points,

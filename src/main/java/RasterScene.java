@@ -2,7 +2,7 @@ import clipping.BackFaceCulling;
 import clipping.ClippingResult;
 import clipping.ClippingWorker;
 import model.*;
-import shading.GourandShading;
+import shading.GouraudShading;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -49,7 +49,7 @@ public class RasterScene {
             transformed[i] = rasterInstance.transform(model.vertices[i]);
         }
         List<Triangle> frontTriangles = backFaceCull(rasterInstance.model.triangles, transformed);
-        GourandShading.applyShading(ModelUtils.lights, transformed, frontTriangles);
+        GouraudShading.applyShading(ModelUtils.lights, transformed, frontTriangles);
         ClippingResult clippingResult = clippingWorker.clip(transformed, frontTriangles);
         Vector[] projected = new Vector[clippingResult.points.size()];
         for (int i = 0; i < projected.length; i++) {

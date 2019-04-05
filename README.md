@@ -11,7 +11,7 @@
 * Object clipping
 * Object primitives (sphere, square)
 * Ritter's bounding sphere
-* Gourand shading
+* Gouraud shading
 
 #### Based on Gabriel Gambetta's [tutorial](http://www.gabrielgambetta.com/computer-graphics-from-scratch/table-of-contents.html)
 
